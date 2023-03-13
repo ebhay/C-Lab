@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main(){
-    float height,weight,bmi;
+    float he_in,wt_lb,bmi;
     printf("Enter the weight in lb: ");
-    scanf("%f",&weight);
+    scanf("%f",&wt_lb);
     printf("Enter the height in inches: ");
-    scanf("%f",&height);
-    bmi=(703*weight)/(height*height);
+    scanf("%f",&he_in);
+    bmi=(703*wt_lb)/(he_in*he_in);
     if(bmi>=30){
         printf("Obese");
     }
-    else if(bmi>=25){
+    else if(bmi>=25 && bmi<=29.9){
         printf("Overweight");
     }
-    else if(bmi>=18.5){
+    else if(bmi>=18.5 && bmi<=24.9){
         printf("Normal");
     }
     else{

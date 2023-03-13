@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     float x, y;
 
@@ -25,5 +25,5 @@ int main()
         printf("The point is in quadrant IV\n");
     }
 
-    return 0;
+
 }

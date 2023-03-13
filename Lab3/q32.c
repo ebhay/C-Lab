@@ -4,8 +4,8 @@ void main()
     int a;
     printf("Enter The Number");
     scanf("%d",&a);
-    if(a>0)
-        printf("\n The Number is Positive");
+    if(a%2==0)
+        printf("The Number is Even");
     else
-        printf("\n The Number is Negative");
+        printf("The Number is Odd");
 }

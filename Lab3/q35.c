@@ -13,7 +13,7 @@ void main()
     scanf("%d",&m3);
     printf("\n Enter The Marks of Subject 4");
     scanf("%d",&m4);
-    per=m1+m2+m3+m4/4;
+    per=(m1+m2+m3+m4)/4;
     if(per>=85)
         grade='A';
     else if(per>=70 && per<85)

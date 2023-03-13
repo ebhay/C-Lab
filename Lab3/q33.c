@@ -9,9 +9,11 @@ void main()
     printf("Enter The Number");
     scanf("%d",&c);
     if(a>b && a>c)
-        printf("\n Number : %d is Greater",a);
+        printf("Number : %d is Largest",a);
     else if(b>a && b>>c)
-        printf("\n Number : %d is Greater",b);
+        printf("Number : %d is Largest",b);
+    else if(c>a && c>b)
+        printf("Number : %d is Largest",c);
     else
-        printf("\n Number : %d is Greater",c);
+        printf("All the numbers are equal");
 }

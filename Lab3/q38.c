@@ -4,6 +4,7 @@ int main()
 {
     
     float n;
+    printf("Enter The Richter Scale Number");
     scanf("%f", &n);
     if(n<5.0)
     {

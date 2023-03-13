@@ -28,7 +28,7 @@ void main()
         limit = 0.25;
     } else {
         printf("Invalid pollutant number\n");
-      
+        return 1;
     }
 
     float emissions = gramsPerMile * odometerReading;
