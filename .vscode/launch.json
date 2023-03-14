@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/KIIT/Downloads/Documents/C-Lab",
-      "program": "c:/Users/KIIT/Downloads/Documents/C-Lab/build/Debug/outDebug",
+      "cwd": "c:/Users/KIIT/Downloads/Documents/C-Lab/Lab 6",
+      "program": "c:/Users/KIIT/Downloads/Documents/C-Lab/Lab 6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
