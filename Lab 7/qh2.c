@@ -6,8 +6,7 @@ int main ()
     int pos, i, num; 
     printf (" \n Enter the number of elements in an array: \n ");  
     scanf (" %d", &num);  
-      
-    printf (" \n Enter %d elements in array: \n ", num);  
+    
 
     for(i=0;i<num;i++)
     {

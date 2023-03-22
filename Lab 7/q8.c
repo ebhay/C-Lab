@@ -2,7 +2,7 @@
 void main()
 {
     int arr[100];
-    int n, i=0,temp,c;
+    int n, i=0,temp,c=0;
     printf("ENTER THE  NO OF ELEMENTS: ");
     scanf("%d",&n);
     printf("ENTER THE ELEMENT TO BE SEARCHED: ");
@@ -16,12 +16,12 @@ void main()
     {
         if(arr[i]==temp)
         {
-            printf("NO IS FOUND AT POSTION %d",i+1);
+            printf("NUMBER IS FOUND AT POSTION : %d",i+1);
             c=1;
             break;
         }
     }
-    if(c==1)
+    if(c==0)
     printf("ELEMENT IS NOT FOUND");
 
 }
