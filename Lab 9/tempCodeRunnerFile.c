@@ -1,4 +1,3 @@
-//Sort the elements of an array (use selection sort)
 #define SIZE 10
 #include<stdio.h>
 int main(){
@@ -17,9 +16,13 @@ int main(){
             }
         }
     }
-    printf("The Sorted Array is:\n");
+    printf("The Ascending Sorted Array is:\n");
     for(i=0;i<SIZE;i++){
         printf("%d\t", arr[i]);
+    }
+    printf("\nThe Descending Sorted Array is:\n");
+    for(int j=SIZE-1;j>=0;j--){
+        printf("%d\t", arr[j]);
     }
     printf("\n");
     
