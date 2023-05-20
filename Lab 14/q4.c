@@ -17,7 +17,6 @@ int *arithmatic()
 }
 int main()
 {
-    int a, b;
     int *p;
     p = arithmatic();
     printf("%d", *p);

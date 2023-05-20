@@ -18,9 +18,8 @@ void display(int x, int y, int mat[x][y])
 int main()
 {
     int a, b;
-    printf("Enter no of rows: ");
+    printf("Enter no of rows & columns: ");
     scanf("%d", &a);
-    printf("Enter no of columns: ");
     scanf("%d", &b);
 
     int mat[a][b];

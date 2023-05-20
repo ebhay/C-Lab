@@ -9,23 +9,23 @@ int arith(char ch, int a,int b)
     if(ch=='+')
     {
         re=a+b;
-        return re;
     }    
     else if(ch=='-')
     {
         re=a-b;
-        return re;
+
     }    
     else if(ch=='*')
     {
         re=a*b;
-        return re;
+
     }    
     else if(ch=='/')
     {
         re=a+b;
-        return re;
+        
     }
+    return re;
 }
 void main()
 {
@@ -33,9 +33,8 @@ void main()
     char ch;
     printf("ENTER THE CHAR: ");
     scanf("%c",&ch);
-    printf("ENTER THE NUMBER: ");
+    printf("ENTER THE NUMBERS: ");
     scanf("%d",&a);
-    printf("ENTER THE NUMBER: ");
     scanf("%d",&b);
     
     r=arith(ch,a,b);

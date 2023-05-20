@@ -10,6 +10,4 @@ void main()
     scanf("%s",str2);
     strcpy(str1,str2);
     printf("FRIST STRING %s \t \t SECOND STRING: %s ",str1,str2);
-    strcpy(str1,"DELHI");
-    strcpy(str2,"CALCUTTA");
 }

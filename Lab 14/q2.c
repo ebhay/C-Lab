@@ -54,7 +54,7 @@ void main()
     {
         printf("\nENTER THE VALUE: ");
         scanf("%d",&ch);
-        if(ch>0 && ch<=4)
+        if(ch>0 && ch<5)
         c=0;
     } 
     while (c!=0);

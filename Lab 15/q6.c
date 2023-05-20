@@ -4,7 +4,7 @@ remove all the common characters from both of these strings.
 Display the resultant strings*/
 #include <stdio.h>
 #include <string.h>
-int main()
+void main()
 {
     char str1[10], str2[10];
     char result1[10], result2[10];
@@ -19,8 +19,6 @@ int main()
 
     len1 = strlen(str1);
     len2 = strlen(str2);
-
-    k = 0;
     for (i = 0; i < len1; i++)
     {
         for (j = 0; j < len2; j++)
@@ -53,8 +51,6 @@ int main()
     }
     result2[k] = '\0';
 
-    printf("Resultant string 1: %s\n", result1);
-    printf("Resultant string 2: %s\n", result2);
+    printf("Resultant string 1: %s \n 2: %s\n", result1 , result2);
 
-    return 0;
 }
