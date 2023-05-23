@@ -12,7 +12,6 @@ void mystrcat(char str1[40], char str2[40])
 int main()
 {
     char str1[50], str2[50];
-    int i, len = 0;
     printf("Enter first string:\n");
     gets(str1);
     printf("Enter second string:\n");

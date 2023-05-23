@@ -13,6 +13,6 @@ void main()
     char str1[10],str2[10];
     printf("Enter The String ");
     gets(str1);
-    mystrcpy(str2,str1);
+    mystrcpy(str1,str2);
     printf("Copied String %s",str2);
 }
