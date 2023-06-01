@@ -20,12 +20,13 @@ int main() {
     } 
     
     int union_arr[100];
-    
+    int intersect_arr[10];
+    int b = 0;
     int a=0;
     for (int i = 0; i < n; i++) {
         int found= 0;
         for (int j = 0; j < m; j++) {
-            if (arr2[i] == arr1[j]) {
+            if (arr1[i] == arr2[j]) {
                 found = 1;
                 break;
             }
@@ -33,18 +34,10 @@ int main() {
         if (!found) {
             union_arr[a++] = arr2[i];
         }
+        else
+        intersect_arr[b++] = arr1[i];
     }
-    // Intersection
-    int intersect_arr[10];
-    int b = 0;
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            if (arr1[i] == arr2[j]) {
-                intersect_arr[b++] = arr1[i];
-                break;
-            }
-        }
-    }
+    
 
     printf("Union: ");
     for (int i = 0; i<a; i++) {

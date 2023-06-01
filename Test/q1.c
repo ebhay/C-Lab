@@ -1,29 +1,15 @@
 #include <stdio.h>
 
-int mod(int n, int val, int dig);
-int value(int n, int pos);
-void arrModifier(int arr[], int n);
-
 int mod(int n, int val, int dig)
 {
-    int sum = 0, r = 0, a = 1;
-    while (n != 0)
-    {
-        r = n % 10;
-        n /= 10;
-        if (a == dig)
-            sum = sum * 10 + val;
-        else
-            sum = sum * 10 + r;
-        a++;
+    int number = 12345;
+    int array[100];  
+    int size = sizeof(number)/sizeof(int);
+    while (number > 0) {
+        array[size] = number % 10;
+        number /= 10;
+        size++;
     }
-    while (sum != 0)
-    {
-        r = sum % 10;
-        sum /= 10;
-        n = n * 10 + r;
-    }
-    return n;
 }
 
 int value(int n, int pos)
